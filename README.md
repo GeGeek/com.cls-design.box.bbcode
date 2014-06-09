@@ -35,4 +35,4 @@ Since WBB4 is in addition to the position information on a German HexCode use po
 
 **Since WBB4 it is unfortunately not possible to use the BBCode together with the plugin "com.mobahner.wcf2.bbcode.extra1", this is because this plugin the same name used for the BBCode how I use it.**
 
-License: [url='http://www.cls-design.com/forum/index.php?page=LicenceFree']License for free products[/url]
+License: http://www.cls-design.com/forum/index.php?page=LicenceFree
