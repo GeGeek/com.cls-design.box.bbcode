@@ -6,7 +6,7 @@ Moreover, it's another feature that if an usergroup shouldn't see the icon withi
 
 As a further little help you can find within the forum's help under the BBcodes a manual to use these BBcodes as well as listing of the boxes, according to colors. Due to that, you have the variety of the colors at a glance and you can also infer from the description how the BBcode is structured.
 
-[b]The structure of the BBcodes:[/b]
+*The structure of the BBcodes:
 Although a description can be found within your forum's help, I'd like to quickly go into this here again. The BBcode consists of totally 4 parts: 
 Part 1 is the start [box].
 
@@ -23,16 +23,15 @@ If you have followed all four steps, your code should look now like this [box=re
 Since version 1.0.2 it is also possible to display a box on the right hand side, respecively left hand side. Example: [box=red,right] Example [/box]
 
 
-[attach=80947,left][/attach][b]Credits[/b]
+*Credits
 [list][*]Thanks to Norse for helping with the userrights (for the version to WBb3.x),
 [*]Gabbid for correcting the German texts as well as providing the English translations,[*]Tom for helping with the CSS code and of course,[*]thanks to the several testers.
-[/list]
-[b]
-Wbb4 adaptation: [/b]
-Since WBB4 is in addition to the position information on a German HexCode use possible. The code for this is as follows: [box=hex,color code,position] text [/box].
-[color=#B22222][b]Since WBB4 it is unfortunately not possible to use the BBCode together with the plugin "com.mobahner.wcf2.bbcode.extra1", this is because this plugin the same name used for the BBCode how I use it.[/b][/color]
 
-[b]License[/b]: [url='http://www.cls-design.com/forum/index.php?page=LicenceFree']License for free products[/url]
+Wbb4 adaptation: 
+Since WBB4 is in addition to the position information on a German HexCode use possible. The code for this is as follows: [box=hex,color code,position] text [/box].
+*Since WBB4 it is unfortunately not possible to use the BBCode together with the plugin "com.mobahner.wcf2.bbcode.extra1", this is because this plugin the same name used for the BBCode how I use it.*
+
+License: [url='http://www.cls-design.com/forum/index.php?page=LicenceFree']License for free products[/url]
 
 [b]See the Plugin on GitHub[/b]: [url]https://github.com/liberry/com.cls-design.box.bbcode[/url]
 [/en]
