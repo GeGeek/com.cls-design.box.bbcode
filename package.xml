@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.cls-design.box.bbcode" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[Box - BBCode]]></packagename>
+		<packagedescription languagecode="de"><![CDATA[Mit diesem BBCode kann man mehrere Boxen mit unterschiedlichen Farben in einen Beitrag einfügen.]]></packagedescription>
+		<packagedescription languagecode="de-informal"><![CDATA[Mit diesem BBCode kann man mehrere Boxen mit unterschiedlichen Farben in einen Beitrag einfügen.]]></packagedescription>
+		<packagedescription languagecode="en"><![CDATA[With this BBCode you are able to insert several boxes in different colors  within one thread. ]]></packagedescription>
+		<version>2.0.0 pl 3</version>
+		<date>2014-05-29</date>
+		<plugin>com.woltlab.wcf.bbcode</plugin>
+	</packageinformation>
+	
+	<authorinformation>
+		<author><![CDATA[LiberrY]]></author>
+		<authorurl><![CDATA[http://www.cls-design.com]]></authorurl>
+	</authorinformation>
+	
+	<excludedpackages>
+		<excludedpackage version="2.1.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+	</excludedpackages>
+	
+	<requiredpackages>
+		<requiredpackage minversion="2.0.0">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="bbcode">xml/bbcode.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
+	</instructions>
+
+	<instructions type="update" fromversion="2.0.0 Rc 2">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="bbcode">xml/bbcode.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="2.0.0">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="bbcode">xml/bbcode.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="2.0.0 pl 1">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="bbcode">xml/bbcode.xml</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="2.0.0 pl 2">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="bbcode">xml/bbcode.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
+	</instructions>
+	
+</package>
