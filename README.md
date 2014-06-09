@@ -6,7 +6,8 @@ Moreover, it's another feature that if an usergroup shouldn't see the icon withi
 
 As a further little help you can find within the forum's help under the BBcodes a manual to use these BBcodes as well as listing of the boxes, according to colors. Due to that, you have the variety of the colors at a glance and you can also infer from the description how the BBcode is structured.
 
-**The structure of the BBcodes** 
+**The structure of the BBcodes**
+
 Although a description can be found within your forum's help, I'd like to quickly go into this here again. The BBcode consists of totally 4 parts: 
 Part 1 is the start [box].
 
