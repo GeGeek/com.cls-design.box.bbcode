@@ -6,7 +6,7 @@ Moreover, it's another feature that if an usergroup shouldn't see the icon withi
 
 As a further little help you can find within the forum's help under the BBcodes a manual to use these BBcodes as well as listing of the boxes, according to colors. Due to that, you have the variety of the colors at a glance and you can also infer from the description how the BBcode is structured.
 
-** The structure of the BBcodes:** 
+**The structure of the BBcodes** 
 Although a description can be found within your forum's help, I'd like to quickly go into this here again. The BBcode consists of totally 4 parts: 
 Part 1 is the start [box].
 
@@ -19,7 +19,7 @@ Part 4 is the final part of the BBcodes, namely [/box].
 If you have followed all four steps, your code should look now like this [box=red] This is an example [/box]. If it doesn't look like this, you have made a mistake at some stage and should try it again; if it looks like this, the code is correct and can be applied.
 
 
-** Position** 
+**Position** 
 Since version 1.0.2 it is also possible to display a box on the right hand side, respecively left hand side. Example: [box=red,right] Example [/box]
 
 
@@ -29,7 +29,7 @@ Since version 1.0.2 it is also possible to display a box on the right hand side,
 - Tom for helping with the CSS code and of course,
 - thanks to the several testers.
 
-**Wbb4 adaptation: **
+**Wbb4 adaptation**
 Since WBB4 is in addition to the position information on a German HexCode use possible. The code for this is as follows: [box=hex,color code,position] text [/box].
 
 **Since WBB4 it is unfortunately not possible to use the BBCode together with the plugin "com.mobahner.wcf2.bbcode.extra1", this is because this plugin the same name used for the BBCode how I use it.**
