@@ -33,6 +33,8 @@ Since version 1.0.2 it is also possible to display a box on the right hand side,
 **Wbb4 adaptation**
 Since WBB4 is in addition to the position information on a German HexCode use possible. The code for this is as follows: [box=hex,color code,position] text [/box].
 
-**Since WBB4 it is unfortunately not possible to use the BBCode together with the plugin "com.mobahner.wcf2.bbcode.extra1", this is because this plugin the same name used for the BBCode how I use it.**
+---
+Since WBB4 it is unfortunately not possible to use the BBCode together with the plugin "com.mobahner.wcf2.bbcode.extra1", this is because this plugin the same name used for the BBCode how I use it.
+---
 
 License: http://www.cls-design.com/forum/index.php?page=LicenceFree
