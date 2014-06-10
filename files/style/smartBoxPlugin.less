@@ -1,0 +1,128 @@
+/* Allgemeine Less */
+@colorWhite: #fff;
+@colorBlack: #000;
+
+
+.boxBBCode_main {
+	display:inline-block;
+}
+
+.boxBBCode_inline (@radius: 3px, @maMain: 10px) {
+	border-radius: @radius;
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	margin-right: @maMain;
+	margin-left: @maMain;
+	margin-top: 5px;
+	padding:2px 12px 2px 12px;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+@red: #BC3F3F;
+@redBorder: darken(spin(@red, -5), 10%);
+#boxBBCode_red, #boxBBCode_rot {
+	background-color: @red;
+	border: 1px solid @redBorder;
+	.boxBBCode_inline;
+	div {color: @colorWhite;}
+		a {color: @colorWhite;}
+		a:hover {text-decoration: underline;}
+}
+
+@blue: #0b6de7;
+@blueBorder: darken(spin(@blue, -5), 10%);
+#boxBBCode_blue, #boxBBCode_blau {
+	background-color: @blue;
+	border: 1px solid @blueBorder;
+	.boxBBCode_inline;
+	div {color: @colorWhite;}
+		a {color: @colorWhite;}
+		a:hover {text-decoration: underline;}
+}
+
+@green: #7aaa3f;
+@greenBorder: darken(spin(@green, -5), 10%);
+#boxBBCode_green, #boxBBCode_grün {
+	background-color: @green;
+	border: 1px solid @greenBorder;
+	.boxBBCode_inline;
+	div {color: @colorWhite;}
+		a {color: @colorWhite;}
+		a:hover {text-decoration: underline;}
+}
+
+@orange: #ff7b00;
+@orangeBorder: darken(spin(@orange, -5), 10%);
+#boxBBCode_orange {
+	background-color: @orange;
+	border: 1px solid @orangeBorder;
+	.boxBBCode_inline;
+	div {color: @colorWhite;}
+		a {color: @colorWhite;}
+		a:hover {text-decoration: underline;}
+}
+
+@black: #000;
+@blackBorder: darken(spin(@black, -5), 10%);
+#boxBBCode_black, #boxBBCode_schwarz {
+	background-color: @black;
+	border: 1px solid @blackBorder;
+	.boxBBCode_inline;
+	div {color: @colorWhite;}
+		a {color: @colorWhite;}
+		a:hover {text-decoration: underline;}
+}
+
+@purple: #b558a7;
+@purpleBorder: darken(spin(@purple, -5), 10%);
+#boxBBCode_purple, #boxBBCode_lila {
+	background-color: @purple;
+	border: 1px solid @purpleBorder;
+	.boxBBCode_inline;
+	div {color: @colorWhite;}
+		a {color: @colorWhite;}
+		a:hover {text-decoration: underline;}
+}
+
+@white: #ffffff;
+@whiteBorder: darken(spin(@white, -5), 10%);
+#boxBBCode_white, #boxBBCode_weiß {
+	background-color: @white;
+	border: 1px solid @whiteBorder;
+	.boxBBCode_inline;
+	div {color: @colorBlack;}
+		a {color: @colorBlack;}
+		a:hover {text-decoration: underline;}
+}
+
+@yellow: #EFD456;
+@yellowBorder: darken(spin(@yellow, -5), 10%);
+#boxBBCode_yellow, #boxBBCode_gelb {
+	background-color: @yellow;
+	border: 1px solid @yellowBorder;
+	.boxBBCode_inline;
+	div {color: @colorBlack;}
+		a {color: @colorBlack;}
+		a:hover {text-decoration: underline;}
+}
+
+/* left Right */
+.boxBBcode_right, .boxBBcode_rechts {
+	float: right;
+}
+
+.boxBBcode_left, .boxBBcode_links {
+	float: left;
+}
+
+/* Hex */
+.hexBoxBBCode_inline {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 5px;
+	padding:2px 12px 2px 12px;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
