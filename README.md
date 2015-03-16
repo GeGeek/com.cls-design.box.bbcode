@@ -1,3 +1,7 @@
+#Box - BBCode for Woltlab WCF 2.0
+
+> Licence: http://www.cls-design.com/index.php/LicenceFree/
+
 Depending on the type of content, the box also changes its size and width and thus, it can be used „freely“.
 
 The plugin allows the user to highlight certain things via a box. Accordingly, e.g. developers can use this plugin in order to let the version number be displayed handily or you can emphasize by means of a green box all the good respectively positive things, whereas the red box can display the bad respectively negative things. The variety of use is also extensive and allows for a multitude of integrations.
